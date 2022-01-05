@@ -1,0 +1,5 @@
+<view class="list-view">
+  <image class="list-img" src="/assets/images/profile/{{icon}}">
+  </image>
+  <text class="list-msg">{{message}}</text>
+</view>

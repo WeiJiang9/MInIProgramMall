@@ -1,0 +1,7 @@
+<!-- <tab-bar titles="{{titles}}"></tab-bar> -->
+<w-swiper banners="{{topImages}}" class="topImg" />
+<base-info baseInfo="{{baseInfo}}" />
+<shop-info shopInfo="{{shopInfo}}" />
+<detail-info detailInfo="{{detailInfo}}" />
+<w-goods currentGoods="{{recommends}}"></w-goods>
+<bottom-bar bind:onAddCart="onAddCart"></bottom-bar>

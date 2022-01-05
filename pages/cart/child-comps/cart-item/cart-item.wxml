@@ -1,0 +1,14 @@
+<view class="cart-item">
+  <view class="cart-img">
+    <w-check isChecked="{{cartItem.checked}}" bind:tap="checkClick"></w-check>
+    <image src="{{cartItem.img}}" mode='aspectFill' class="img-info"></image>
+  </view>
+  <view class="cart-info">
+    <view class="title">{{cartItem.title}}</view>
+    <view class="desc">{{cartItem.desc}}</view>
+    <view class="price-count">
+      <text class="price">￥{{cartItem.pri}}</text>
+      <text class="count">x{{cartItem.count}}</text>
+    </view>
+  </view>
+</view>

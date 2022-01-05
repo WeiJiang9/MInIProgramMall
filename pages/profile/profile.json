@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "header": "./childComps/header/header",
+    "w-info": "./childComps/w-info/w-info",
+    "w-list": "./childComps/w-list/w-list"
+  },
+  "navigationBarTitleText": "我的信息"
+}

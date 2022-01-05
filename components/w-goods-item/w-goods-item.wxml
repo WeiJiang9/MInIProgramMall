@@ -1,0 +1,10 @@
+<view class="goods-item" bind:tap="itemClick">
+  <image src="{{itemGoods.show.img ||itemGoods.image || itemGoods.img}}" class="goods-img"></image>
+  <view class="goods-title">{{itemGoods.title}}</view>
+  <view class="goods-desc">
+    <view class="goods-pri">￥{{itemGoods.price}}</view>
+    <view class="goods-cfav">{{itemGoods.cfav}}
+      <image class="favor-img" src="../../assets/images/common/favor.png"></image>
+    </view>
+  </view>
+</view>

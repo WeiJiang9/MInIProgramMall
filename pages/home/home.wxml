@@ -1,0 +1,5 @@
+<w-swiper banners="{{banners}}" class="home-swiper" />
+<w-recommend recommend="{{recommend}}"></w-recommend>
+<w-featrue></w-featrue>
+<w-tab-control  titles="{{titles}}" bind:tabBarClick="tabBarClick" class="tab-control"></w-tab-control>
+<w-goods currentGoods="{{goods[currentType].list}}"></w-goods>

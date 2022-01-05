@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "tab-bar": "./childCmps/tab-bar/tab-bar",
+    "w-swiper": "../../components/w-swiper/w-swiper",
+    "base-info": "./childCmps/base-info/base-ifno",
+    "shop-info": "./childCmps/shop-info/shop-info",
+    "detail-info": "./childCmps/detail-info/detail-info",
+    "w-goods": "../../components/w-goods/w-goods",
+    "bottom-bar": "./childCmps/bottom-bar/bottom-bar"
+  },
+  "navigationBarTitleText": "商品详情页"
+}

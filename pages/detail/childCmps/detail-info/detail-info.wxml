@@ -1,0 +1,18 @@
+<view class="detail-info">
+  <view>
+    {{detailInfo.desc}}
+  </view>
+  <block wx:for="{{detailInfo.detailImage}}">
+    <view>
+      <view>
+        {{item.desc}}
+      </view>
+      <view>
+        {{item.key}}
+      </view>
+      <view wx:for="{{item.list}}">
+        <image src="{{item}}" class="detail-img" mode='widthFix'></image>
+      </view>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,56 @@
+.shop-info{
+  padding: 10rpx;
+}
+.shop-title{
+  line-height: 100rpx;
+  margin-top: 20rpx;
+}
+.shop-title image{
+  width: 100rpx;
+  height: 100rpx;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  margin-right: 20rpx;
+  vertical-align: middle;
+}
+.shop-title .text111{
+  font-size: 50rpx;
+  font-weight: 600;
+}
+.shop-desc{
+  display: flex;
+  font-size: 30rpx;
+  align-items: center;
+  line-height: 60rpx;
+}
+.shop-sells{
+  flex: 1;
+  display: flex;
+}
+.v1{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+}
+.shop-score{
+  flex: 1;
+  padding-left: 50rpx;
+}
+.sc1{
+  display: flex;
+}
+.sc1 text:first-child{
+  width: 150rpx;
+}
+.sc1 text:nth-child(2){
+  width: 80rpx;
+  color: green;
+}
+.sc1 text:nth-child(3){
+  color: green;
+}
+.red{
+  color: red !important;
+}
+

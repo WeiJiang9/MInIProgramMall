@@ -1,0 +1,6 @@
+<view class="goods">
+  <block wx:for="{{currentGoods}}">
+    <w-goods-item itemGoods="{{item}}" class="item-goods">
+    </w-goods-item>
+  </block>
+</view>

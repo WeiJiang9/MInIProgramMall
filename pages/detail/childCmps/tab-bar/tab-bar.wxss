@@ -1,0 +1,31 @@
+.bar {
+  height: 88rpx;
+}
+
+.tab-bar {
+  height: 88rpx;
+  display: flex;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.tabbar-item {
+  width: 100rpx;
+}
+
+.tabbar-info {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.active {
+  color: #ff5777;
+}

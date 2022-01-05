@@ -1,0 +1,19 @@
+<view class="bar">
+  <view class="tab-bar">
+    <view class="tabbar-item">
+      <image></image>
+    </view>
+    <view class="tabbar-info">
+      <block>
+        <view wx:for="{{titles}}"
+        class="{{currentIndex === index ? 'active' : '' }}" 
+        bind:tap="itemClick" 
+        data-index="{{index}}">
+        {{item}}
+        </view>
+      </block>
+    </view>
+    <view class="tabbar-item">
+    </view>
+  </view>
+</view>

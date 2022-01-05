@@ -1,0 +1,8 @@
+<view class="bottom-bar">
+  <view class="check-all">
+    <w-check isChecked="{{isSelectAll}}" bind:tap="checkAllClick"></w-check>
+    全选
+  </view>
+  <view class="price-all">总计: ￥ {{totalPrice}}</view>
+  <view class="payment">去结算({{totalCounter}})</view>
+</view>

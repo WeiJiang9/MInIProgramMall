@@ -1,0 +1,6 @@
+.detail-info{
+  font-size: 30rpx;
+}
+.detail-img{
+  width: 100%;
+}

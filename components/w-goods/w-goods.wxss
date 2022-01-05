@@ -1,0 +1,8 @@
+.goods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item-goods{
+  width: 48%;
+}

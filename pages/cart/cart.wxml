@@ -1,0 +1,5 @@
+<block wx:for="{{cartList}}">
+  <cart-item cartItem="{{item}}"></cart-item>
+</block>
+<bottom-bar totalCounter="{{totalCounter}}" totalPrice="{{totalPrice}}" isSelectAll="{{isSelectAll}}" bind:checkAllClick="checkAllClick">
+</bottom-bar>

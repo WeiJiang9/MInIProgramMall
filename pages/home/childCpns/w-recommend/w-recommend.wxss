@@ -1,0 +1,18 @@
+.rec {
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.rec-inner .rec-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.rec-img {
+  height: 150rpx;
+  width: 150rpx;
+  margin-bottom: 20rpx;
+}

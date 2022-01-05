@@ -1,0 +1,14 @@
+.list-view {
+  border-bottom: 1px solid #f8f8f8;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  padding: 0 30rpx;
+}
+
+.list-img {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}

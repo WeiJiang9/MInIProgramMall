@@ -1,0 +1,7 @@
+<header />
+<w-info />
+<w-list icon="message.png" message="我的消息"/>
+<w-list icon="pointer.png" message="积分商城"/>
+<w-list icon="vip.png" message="会员卡"/>
+<w-list icon="cart.png" message="我的购物车"/>
+<w-list icon="app.png" message="下载购物APP"/>
